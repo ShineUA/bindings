@@ -4011,7 +4011,7 @@ class EditorUI : cocos2d::CCLayer, FLAlertLayerProtocol, ColorSelectDelegate, GJ
     void findSnapObject(cocos2d::CCPoint, float) = win 0x121790;
     TodoReturn findTriggerTest();
     void flipObjectsX(cocos2d::CCArray*);
-    void flipObjectsY(cocos2d::CCArray*);
+    void flipObjectsY(cocos2d::CCArray*) = win 0x11f2d0;
     TodoReturn getButton(char const*, int, cocos2d::SEL_MenuHandler, cocos2d::CCMenu*);
     CreateMenuItem* getCreateBtn(int id, int bg) = win 0x10d2a0, m1 0x332f0;
     TodoReturn getCreateMenuItemButton(cocos2d::CCSprite*, cocos2d::SEL_MenuHandler, cocos2d::CCMenu*, float, int, cocos2d::CCPoint) = imac 0x2f190;
